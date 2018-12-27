@@ -238,3 +238,5 @@ public class MyTicTacToe {
       tampilkanStatus();
      }//Akhir method start()
 }
+
+//don't forget semicolon ';' and happy coding ^_^

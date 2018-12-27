@@ -6,3 +6,5 @@ public class TestGame {
     }
     
    }
+
+   //don't forget semicolon ';' and happy coding ^_^
