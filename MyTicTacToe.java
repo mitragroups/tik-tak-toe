@@ -1,11 +1,11 @@
 import java.util.Scanner;
  
 public class MyTicTacToe {
-  
+     
  private char papanGame [][];
   
- private final int JUMLAH_BARIS = 3;
- private final int JUMLAH_KOLOM = 3;
+ private final int JUMLAH_BARIS = input.nextInt();
+ private final int JUMLAH_KOLOM = input.nextInt();
   
  private char giliranPemain;
   
@@ -19,8 +19,7 @@ public class MyTicTacToe {
   
  public MyTicTacToe(){
    
-  papanGame = new char [JUMLAH_BARIS] [JUMLAH_KOLOM];
-  System.out.println("Welcome To Tic Tac Toe Game");
+  papanGame = new char [JUMLAH_BARIS] [JUMLAH_KOLOM];  
   System.out.println("***************************");
    
   do{
@@ -199,15 +198,15 @@ public class MyTicTacToe {
         statusSekarang();
     
     System.out.print("Pemain " + giliranPemain +
-      " silakan pilih baris (0-2): ");
+      " silakan pilih baris (0-99) INGAT !!! KOLOM DAN BARIS DIMULAI DARI NOL !: ");
     int row = input.nextInt();
     System.out.print("Pemain " + giliranPemain +
-      " silakan pilih kolom (0-2): ");
+      " silakan pilih kolom (0-99) INGAT !!! KOLOM DAN BARIS DIMULAI DARI NOL !: ");
     int col = input.nextInt();
     
-             if ((row < 0) || (row > 2))
+             if ((row < 0) || (row > 99))
                  System.out.println("Baris tidak valid, coba lagi");
-             else if ((col < 0) || (col > 2))
+             else if ((col < 0) || (col > 99))
                  System.out.println("Kolom tidak valid, coba lagi!");
  
               
