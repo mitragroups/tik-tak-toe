@@ -4,7 +4,7 @@ Tic Tac Toe :: Java language
 
 ## Author
 
-[Miftah MD](http://sumateradev.com)
+[Miftah MD](https://github.com/mitragroups)
 
 ## Playing
 
